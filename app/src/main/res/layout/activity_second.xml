@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.and roid.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <android.widget.ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/myscrollview">
+       <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:id="@+id/ll_group"/>
+   </android.widget.ScrollView>
+    <LinearLayout
+            android:id="@+id/ll_head_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#66EC240A"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        <LinearLayout
+                android:id="@+id/ll_title_search"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="ScrollView滑动渐变顶部View的背景色"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
